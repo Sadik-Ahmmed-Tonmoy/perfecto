@@ -160,7 +160,10 @@ const Home = () => {
                             </SwiperSlider>
                         </div>
                     )}
-                    {item?.id == 7 && item?.section_data?.length > 0 && (
+
+
+
+                    {/* {item?.id == 7 && item?.section_data?.length > 0 && (
                         <div className="mb-4 md:mb-10  container mx-auto">
                             <h4 className="text-black px-[10px] font-inter text-[20px] font-semibold leading-normal mb-2 md:mb-4">Explore Our Top Brands </h4>
                             <CardCarousel
@@ -179,8 +182,12 @@ const Home = () => {
                                 ))}
                             </CardCarousel>
                         </div>
-                    )}
-                    {item?.id == 8 && item?.section_data?.length > 0 && (
+                    )} */}
+
+
+
+
+                    {/* {item?.id == 8 && item?.section_data?.length > 0 && (
                         <div className="mb-4 md:mb-10  px-[10px] container mx-auto">
                             <h4 className="text-black font-inter text-[20px] font-semibold leading-normal mb-2 md:mb-4">Featured Brands</h4>
                             <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-x-5 gap-y-3">
@@ -191,7 +198,10 @@ const Home = () => {
                                 ))}
                             </div>
                         </div>
-                    )}
+                    )} */}
+
+
+                    
                     {item?.id == 12 && item?.section_data?.length > 0 && (
                         <div className="mb-4 md:mb-10  px-[10px] container mx-auto">
                             <h4 className="text-black font-inter text-[20px] font-semibold leading-normal mb-2 md:mb-4">Category In Focus</h4>
