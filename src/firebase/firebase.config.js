@@ -15,6 +15,16 @@ const firebaseConfig = {
     // messagingSenderId: import.meta.env.VITE_messagingSenderId,
     // appId: import.meta.env.VITE_appId
 
+    // apiKey: "AIzaSyBpYA4j53WuyZ1XYaLz2XP2mBIbfXFa_qY",
+    // authDomain: "perfecto-base-app.firebaseapp.com",
+    // projectId: "perfecto-base-app",
+    // storageBucket: "perfecto-base-app.appspot.com",
+    // messagingSenderId: "1042984089947",
+    // appId: "1:1042984089947:web:bde19ac9c6baa4580dc27e",
+    // measurementId: "G-TDG8YSMS5F",
+
+
+    
     apiKey: "AIzaSyDVieC_-9UzRNV6xjjqPbp9oeDFC2nsNA4",
   authDomain: "perfecto-b2026.firebaseapp.com",
   projectId: "perfecto-b2026",
@@ -22,7 +32,6 @@ const firebaseConfig = {
   messagingSenderId: "764049731209",
   appId: "1:764049731209:web:a0ab4b7d49c2317de02058",
   measurementId: "G-X5HC7B4MCX"
-    // VITE_APP_VAPID_KEY= "BEuRYBmGbLGo-vYSsdyqihtD80eMxMRYSj_u6d54MjvUP6QRNBs490oHLxOahjwksilFPE2yXYGTMJVx1e9jByg",
 };
 
 // Initialize Firebase
