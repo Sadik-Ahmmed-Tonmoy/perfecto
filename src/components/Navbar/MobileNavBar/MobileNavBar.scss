@@ -1,0 +1,44 @@
+.mobile-navbar {
+
+    .first-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 6px 0;
+
+    }
+
+    .second-row {
+        .search-form {
+            position: relative;
+            width: 100%;
+
+            .input {
+                border: 1px solid #5dc9f4;
+                border-radius: 42px;
+                height: 36px;
+                width: 100%;
+                padding-left: 35px;
+                color: rgba(0, 0, 0, 0.831);
+                font-family: Inter;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: -0.12px;
+            }
+
+            button {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                color: #00000099;
+            }
+        }
+
+    }
+}
+
+.ant-drawer-body {
+    padding: 0 !important;
+}
