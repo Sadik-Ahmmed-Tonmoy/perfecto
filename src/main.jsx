@@ -1,17 +1,15 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import axios from "axios";
+import ReactDOM from "react-dom/client";
+import { Provider } from "react-redux";
+import { RouterProvider } from "react-router-dom";
+import { PersistGate } from "redux-persist/integration/react";
+import { router } from "./Routes/Routes.jsx";
 import "./index.css";
-import "./scss/styles.scss";
-import {RouterProvider} from "react-router-dom";
-import {router} from "./Routes/Routes.jsx";
-import LogicProvider from "./providers/LogicProvider.jsx";
-import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 import AuthProvider from "./providers/AuthProvider.jsx";
-import {Provider} from "react-redux";
-import {persistor, store} from "./redux/store.js";
-import {Toaster} from "sonner";
-import {PersistGate} from "redux-persist/integration/react";
+import LogicProvider from "./providers/LogicProvider.jsx";
+import { persistor, store } from "./redux/store.js";
+import "./scss/styles.scss";
 
 axios.defaults.baseURL = "https://app.perfectoblog.com/api/";
 
