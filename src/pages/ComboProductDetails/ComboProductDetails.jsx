@@ -107,6 +107,7 @@ const ComboProductDetails = () => {
                 console.error("Error fetching data:", error.message);
             }
         } else {
+            showToast("Please Login First", "info", "top-end", 5000);
             navigate("/login-with-email");
         }
     };

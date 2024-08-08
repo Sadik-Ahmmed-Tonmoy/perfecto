@@ -23,7 +23,6 @@ const firebaseConfig = {
     // appId: "1:1042984089947:web:bde19ac9c6baa4580dc27e",
     // measurementId: "G-TDG8YSMS5F",
 
-
     
     apiKey: "AIzaSyDVieC_-9UzRNV6xjjqPbp9oeDFC2nsNA4",
   authDomain: "perfecto-b2026.firebaseapp.com",

@@ -392,6 +392,7 @@ const ProductDetails = () => {
                 console.error("Error fetching data:", error.message);
             }
         } else {
+            showToast("Please Login First", "info", "top-end", 5000);
             navigate("/login-with-email");
         }
     };
@@ -415,6 +416,7 @@ const ProductDetails = () => {
                 console.error("Error fetching data:", error.message);
             }
         } else {
+            showToast("Please Login First", "info", "top-end", 5000);
             navigate("/login-with-email");
         }
     };
@@ -439,6 +441,7 @@ const ProductDetails = () => {
                 console.error("Error fetching data:", error.message);
             }
         } else {
+            showToast("Please Login First", "info", "top-end", 5000);
             navigate("/login-with-email");
         }
     };
