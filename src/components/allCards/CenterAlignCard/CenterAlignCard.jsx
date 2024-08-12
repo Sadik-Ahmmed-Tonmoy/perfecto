@@ -588,7 +588,7 @@ const CenterAlignCard = ({item}) => {
                                                 <>
                                                     {stockRequestIsLoading ? (
                                                         <Button className=" text-sm w-6/12 font-medium py-[14px] rounded-none rounded-br-sm" variant="">
-                                                            Requesting...
+                                                            Requesting... 
                                                         </Button>
                                                     ) : (
                                                         <Button
