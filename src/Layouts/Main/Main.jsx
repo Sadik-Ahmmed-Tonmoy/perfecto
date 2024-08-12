@@ -77,7 +77,7 @@ const Main = () => {
                     <div className="pt-[95px] md:pt-[146px]">
                         <Outlet/>
                     </div>
-                    {userData?.status === true && <ChatSystem/>}
+                    {/* {userData?.status === true && <ChatSystem/>} */}
 
                     <Footer/>
                     <ToastContainer/>
