@@ -43,6 +43,6 @@ export const store = configureStore({
             },
         }).concat(baseApi.middleware),
 });
-
+   
 // Infer the `RootState` and `AppDispatch` types from the store itself
 export const persistor = persistStore(store);
